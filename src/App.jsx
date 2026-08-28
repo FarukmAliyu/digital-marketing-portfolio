@@ -1,4 +1,5 @@
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Navigate } from "react-router-dom";
+
 import SalamNgCaseStudy from "./SalamNgCaseStudy";
 import AgroAICaseStudy from "./AgroAICaseStudy";
 
@@ -46,6 +47,12 @@ function App() {
       <Route
         path="/projects/agroai"
         element={<AgroAICaseStudy />}
+      />
+
+      {/* Redirect unknown URLs back to Home */}
+      <Route
+        path="*"
+        element={<Navigate to="/" replace />}
       />
     </Routes>
   );
