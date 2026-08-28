@@ -1,60 +1,18 @@
-import { Routes, Route, Navigate } from "react-router-dom";
-
-import SalamNgCaseStudy from "./SalamNgCaseStudy";
-import AgroAICaseStudy from "./AgroAICaseStudy";
-
-import Navbar from "./Navbar";
-import Hero from "./Hero";
-import About from "./About";
-import Skills from "./Skills";
-import Projects from "./Projects";
-import Analytics from "./Analytics";
-import Contact from "./Contact";
-import Footer from "./Footer";
-
-function Home() {
-  return (
-    <>
-      <Navbar />
-
-      <main>
-        <Hero />
-        <About />
-        <Skills />
-        <Projects />
-        <Analytics />
-        <Contact />
-      </main>
-
-      <Footer />
-    </>
-  );
-}
-
 function App() {
   return (
-    <Routes>
-      {/* Home Page */}
-      <Route path="/" element={<Home />} />
-
-      {/* SalamNG Case Study */}
-      <Route
-        path="/projects/salamng"
-        element={<SalamNgCaseStudy />}
-      />
-
-      {/* AgroAI Case Study */}
-      <Route
-        path="/projects/agroai"
-        element={<AgroAICaseStudy />}
-      />
-
-      {/* Redirect unknown URLs back to Home */}
-      <Route
-        path="*"
-        element={<Navigate to="/" replace />}
-      />
-    </Routes>
+    <div
+      style={{
+        minHeight: "100vh",
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+        fontFamily: "Arial, sans-serif",
+        fontSize: "40px",
+        fontWeight: "bold",
+      }}
+    >
+      Digital Marketing Portfolio is Working!
+    </div>
   );
 }
 
