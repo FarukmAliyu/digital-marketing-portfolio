@@ -16,20 +16,21 @@ const projects = [
     ],
     link: "/projects/salamng",
   },
-
   {
     number: "02",
-    title: "AgroAI Digital Growth Strategy",
+    title: "SwiftGo Digital Growth Strategy",
     category: "Digital Strategy & Product Marketing",
     description:
-      "A digital growth strategy for an AI-powered crop disease detection platform, focused on reaching farmers, building awareness and driving product adoption.",
+      "A digital growth strategy for a parcel delivery platform designed to attract online vendors, businesses and individuals, generate delivery leads and drive repeat customer usage.",
     tags: [
       "Digital Strategy",
       "Product Marketing",
-      "AI",
+      "Lead Generation",
       "Customer Acquisition",
+      "WhatsApp",
+      "Analytics",
     ],
-    link: "/projects/agroai",
+    link: "/projects/swiftgo",
   },
 ];
 
@@ -41,13 +42,13 @@ function Projects() {
           <p className="section-label">04 / PROJECTS</p>
 
           <h2>
-            Selected <span>projects.</span>
+            <span>projects.</span>
           </h2>
 
           <p className="section-description">
-            A selection of digital strategy, marketing and analytics projects
-            focused on solving real business problems and improving customer
-            experiences.
+            A selection of digital strategy, marketing and product projects
+            focused on solving real business problems, improving customer
+            experiences and driving digital growth.
           </p>
         </div>
 

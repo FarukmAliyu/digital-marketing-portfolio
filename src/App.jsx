@@ -1,7 +1,8 @@
 import { Routes, Route, Navigate } from "react-router-dom";
 
-import SalamNgCaseStudy from "./SalamNgCaseStudy";
-import AgroAICaseStudy from "./AgroAICaseStudy";
+import SalamNgCaseStudy from "./SalamNg";
+import SwiftGoCaseStudy from "./SwiftGo";
+
 
 import Navbar from "./Navbar";
 import Hero from "./Hero";
@@ -34,22 +35,22 @@ function Home() {
 function App() {
   return (
     <Routes>
-      {/* Home Page */}
+      {/* Home */}
       <Route path="/" element={<Home />} />
 
-      {/* SalamNG Case Study */}
+      {/* SalamNg Case Study */}
       <Route
         path="/projects/salamng"
         element={<SalamNgCaseStudy />}
       />
 
-      {/* AgroAI Case Study */}
+      {/* SwiftGo Case Study */}
       <Route
-        path="/projects/agroai"
-        element={<AgroAICaseStudy />}
+        path="/projects/swiftgo"
+        element={<SwiftGoCaseStudy />}
       />
 
-      {/* Redirect unknown URLs back to Home */}
+      {/* Unknown URLs */}
       <Route
         path="*"
         element={<Navigate to="/" replace />}

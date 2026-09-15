@@ -12,14 +12,14 @@ function About() {
           </h2>
 
           <p className="about-text">
-            I'm Faruk Aliyu, a digital marketing and technology professional
+            I'm Faruk Muktar Aliyu, a digital marketing and technology professional
             interested in the intersection of marketing, data and artificial
             intelligence.
           </p>
 
           <p className="about-text">
             My approach combines creative thinking with analytical problem
-            solving — from developing digital strategies and content ideas to
+            solving, from developing digital strategies and content ideas to
             understanding customer journeys, measuring performance and using
             technology to improve business growth.
           </p>

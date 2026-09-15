@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function Projectcard({ project }) {
 const projectLinks = {
   "01": "/projects/salamng",
-  "02": "/projects/quick-delivery",
+  "02": "/projects/swiftgo",
 };
   return (
     <article className="project-card">

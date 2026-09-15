@@ -2,7 +2,7 @@ function Footer() {
   return (
     <footer className="footer">
       <div className="container footer-content">
-        <p>© {new Date().getFullYear()} Faruk Aliyu.</p>
+        <p>© {new Date().getFullYear()} Faruk Muktar.</p>
 
         <p>
           Digital Marketing • Data • AI
